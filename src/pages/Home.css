@@ -194,6 +194,7 @@
   .home-description {
     color: #fff;
     width: 100%;
+    margin: 50px;
   }
   
   .home-description .description-fullname {
@@ -202,7 +203,7 @@
   }
   
   .home-description .description-jobs {
-    font-size: 30px;
+    font-size: 27px;
     line-height: 50px;
     color: #5A57F3;
   }
@@ -210,6 +211,7 @@
   .home-description .description-about {
     font-size: 12px;
     line-height: 25px;
+    text-align: justify;
   }
   
   .home-description .description-about a { 

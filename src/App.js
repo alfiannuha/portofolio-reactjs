@@ -15,8 +15,8 @@ function App() {
         <Navbar></Navbar>
       }
       <div className="App">
-        {width > 850 ? "true" : "false"} <br/>
-        {width}
+        {/* {width > 850 ? "true" : "false"} <br/>
+        {width} */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="projects" element={<Projects />} />

@@ -1,0 +1,364 @@
+@media screen and (max-width: 1950px) {
+  .project {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  
+  .vector-left {
+    width: 500px;
+    height: 600px;
+  }
+  
+  .project-title {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    margin-top: 6%;
+    font-size: 40px;
+    color: #5A57F3;
+  }
+
+  .project-card-mobile {
+    display: none
+  }
+  
+  .project-card {
+    position: absolute;
+    top: 0;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper {
+    width: 1700px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* WIDTH 1440px */
+@media screen and (max-width: 1440px) {
+  .project {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  
+  .vector-left {
+    width: 500px;
+    height: 600px;
+  }
+  
+  .project-title {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    margin-top: 6%;
+    font-size: 40px;
+    color: #5A57F3;
+  
+  }
+
+  .project-card-mobile {
+    display: none
+  }
+  
+  .project-card {
+    position: absolute;
+    top: 0;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper {
+    width: 1270px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* WIDTH 1240px */
+@media screen and (max-width: 1240px) {
+  .project {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  
+  .vector-left {
+    width: 500px;
+    height: 600px;
+  }
+  
+  .project-title {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    margin-top: 6%;
+    font-size: 40px;
+    color: #5A57F3;
+  
+  }
+
+  .project-card-mobile {
+    display: none
+  }
+  
+  .project-card {
+    position: absolute;
+    top: 0;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* WIDTH 836px */
+@media screen and (max-width: 836px) {
+  #project {
+    height: 100vh;
+  }
+  .project {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  
+  .vector-left {
+    width: 500px;
+    height: 600px;
+  }
+  
+  .project-title {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    margin-top: 15%;
+    font-size: 40px;
+    color: #5A57F3;
+  
+  }
+
+  .project-card-mobile {
+    display: none
+  }
+  
+  .project-card {
+    position: absolute;
+    top: 0;
+    margin-top: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper {
+    width: 670px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* WIDTH 500 */
+@media screen and (max-width: 500px) {
+  #project {
+    height: 100vh;
+  }
+  .project {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  
+  .vector-left {
+    width: 350px;
+    height: 450px;
+  }
+  
+  .project-title {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    margin-top: 15%;
+    font-size: 40px;
+    color: #5A57F3;
+  
+  }
+
+  .project-card {
+    display: none
+  }
+  
+  .project-card-mobile {
+    position: absolute;
+    top: 0;
+    margin-top: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 9%;
+  }
+  
+  .swiper {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

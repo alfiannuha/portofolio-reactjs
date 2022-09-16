@@ -1,0 +1,406 @@
+@media screen and (max-width: 2560px) {
+  .about {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 50px; */
+  }
+
+  .about-description {
+    color: #fff;
+    width: 50%;
+  }
+
+  .about-description .description-fullname {
+    font-size: 48px;
+    line-height: 65px;
+  }
+
+  .about-description .description-jobs {
+    font-size: 40px;
+    line-height: 80px;
+    color: #5A57F3;
+  }
+
+  .about-description .description-about {
+    font-size: 12px;
+    line-height: 25px;
+    text-align: justify;
+  }
+
+  .about-btn-cv {
+    display: flex;
+    margin-top: 30px;
+    width: 250px;
+    height: 57px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(87.02deg, #2724C8 0%, #9A3984 100%);
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .divider {
+    display: flex;
+  }
+
+  .divider-line {
+    border: 1px solid #5A57F3;
+    width: 90%;
+  }
+
+  /* RIWAYAT */
+  .riwayat {
+    padding: 2em 5em;
+    margin-top: 50px;
+  }
+
+  .riwayat-title {
+    font-size: 28px;
+    line-height: 60px;
+    color: #5A57F3;
+  }
+
+  .riwayat-details {
+    margin-bottom: 10px;
+  }
+
+  .riwayat-detail-tahun {
+    text-indent: 1.5em;
+    font-size: 24px;
+    line-height: 50px;
+    color: #6FBB72;
+  }
+
+  .riwayat-detail-place {
+    text-indent: 2.5em;
+    font-size: 24px;
+    line-height: 30px;
+    color: #d9d9d9;
+  }
+
+  .riwayat-detail-job {
+    text-indent: 4em;
+    font-size: 16px;
+    line-height: 30px;
+    color: #d9d9d9;
+  }
+
+  .riwayat-detail-job span {
+    text-indent: 2em;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2AEBBD;
+  }
+}
+
+/* WIDTH 1440px */
+@media screen and (max-width: 1440px) {
+  .about {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 50px; */
+  }
+
+  .about-description {
+    color: #fff;
+    width: 50%;
+  }
+
+  .about-description .description-fullname {
+    font-size: 48px;
+    line-height: 65px;
+  }
+
+  .about-description .description-jobs {
+    font-size: 40px;
+    line-height: 80px;
+    color: #5A57F3;
+  }
+
+  .about-description .description-about {
+    font-size: 12px;
+    line-height: 25px;
+    text-align: justify;
+  }
+
+  .about-btn-cv {
+    display: flex;
+    margin-top: 30px;
+    width: 250px;
+    height: 57px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(87.02deg, #2724C8 0%, #9A3984 100%);
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .divider {
+    display: flex;
+  }
+
+  .divider-line {
+    border: 1px solid #5A57F3;
+    width: 90%;
+  }
+
+  /* RIWAYAT */
+  .riwayat {
+    padding: 2em 5em;
+    margin-top: 50px;
+    display: flex;
+  }
+
+  .riwayat-title {
+    font-size: 28px;
+    line-height: 60px;
+    color: #5A57F3;
+  }
+
+  .riwayat-details {
+    margin-bottom: 10px;
+  }
+
+  .riwayat-detail-tahun {
+    text-indent: 1.5em;
+    font-size: 24px;
+    line-height: 50px;
+    color: #6FBB72;
+  }
+
+  .riwayat-detail-place {
+    text-indent: 2.5em;
+    font-size: 24px;
+    line-height: 30px;
+    color: #d9d9d9;
+  }
+
+  .riwayat-detail-job {
+    text-indent: 4em;
+    font-size: 16px;
+    line-height: 30px;
+    color: #d9d9d9;
+  }
+
+  .riwayat-detail-job span {
+    text-indent: 2em;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2AEBBD;
+  }
+}
+/* WIDTH 850px */
+@media screen and (max-width: 850px){
+  .about {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .about-profile img{
+    width: 300px;
+  }
+
+  .about-description {
+    color: #fff;
+    width: 100%;
+  }
+
+  .about-description .description-fullname {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .about-description .description-jobs {
+    font-size: 28px;
+    line-height: 30px;
+    color: #5A57F3;
+  }
+
+  .about-description .description-about {
+    font-size: 12px;
+    line-height: 25px;
+    text-align: justify;
+  }
+
+  .about-btn-cv {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 57px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(87.02deg, #2724C8 0%, #9A3984 100%);
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .divider {
+    display: flex;
+  }
+
+  .divider-line {
+    border: 1px solid #5A57F3;
+    width: 90%;
+  }
+
+  /* RIWAYAT */
+  .riwayat {
+    padding: 2em 20px;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  .riwayat-title {
+    font-size: 28px;
+    line-height: 60px;
+    color: #5A57F3;
+  }
+
+  .riwayat-details {
+    margin-bottom: 10px;
+  }
+
+  .riwayat-detail-tahun {
+    text-indent: 1em;
+    font-size: 24px;
+    line-height: 50px;
+    color: #6FBB72;
+  }
+
+  .riwayat-detail-place {
+    text-indent: 1.5em;
+    font-size: 22px;
+    line-height: 30px;
+    color: #d9d9d9;
+  }
+
+  .riwayat-detail-job {
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 30px;
+    color: #d9d9d9;
+  }
+
+  .riwayat-detail-job span {
+    text-indent: 2em;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2AEBBD;
+  } 
+}
+
+/* WIDTH 850px */
+@media screen and (max-width: 500px){
+  .about {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .about-profile img{
+    width: 300px;
+  }
+
+  .about-description {
+    color: #fff;
+    width: 100%;
+  }
+
+  .about-description .description-fullname {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .about-description .description-jobs {
+    font-size: 28px;
+    line-height: 30px;
+    color: #5A57F3;
+  }
+
+  .about-description .description-about {
+    font-size: 12px;
+    line-height: 25px;
+    text-align: justify;
+  }
+
+  .about-btn-cv {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 57px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(87.02deg, #2724C8 0%, #9A3984 100%);
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .divider {
+    display: flex;
+  }
+
+  .divider-line {
+    border: 1px solid #5A57F3;
+    width: 90%;
+  }
+
+  /* RIWAYAT */
+  .riwayat {
+    padding: 2em 20px;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  .riwayat-title {
+    font-size: 28px;
+    line-height: 60px;
+    color: #5A57F3;
+  }
+
+  .riwayat-details {
+    margin-bottom: 10px;
+  }
+
+  .riwayat-detail-tahun {
+    text-indent: 1em;
+    font-size: 24px;
+    line-height: 50px;
+    color: #6FBB72;
+  }
+
+  .riwayat-detail-place {
+    text-indent: 1.5em;
+    font-size: 22px;
+    line-height: 30px;
+    color: #d9d9d9;
+  }
+
+  .riwayat-detail-job {
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 30px;
+    color: #d9d9d9;
+  }
+
+  .riwayat-detail-job span {
+    text-indent: 2em;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2AEBBD;
+  } 
+}

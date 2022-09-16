@@ -1,0 +1,231 @@
+@media screen and (max-width: 2560px) {
+  .home {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  .home-description {
+    color: #fff;
+    width: 50%;
+  }
+  
+  .home-description .description-fullname {
+    font-size: 60px;
+    line-height: 65px;
+  }
+  
+  .home-description .description-jobs {
+    font-size: 40px;
+    line-height: 60px;
+    color: #5A57F3;
+  }
+  
+  /* .home-description .description-jobs {
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+  }
+  
+  .home-description .description-jobs div {
+    font-size: 40px;
+    line-height: 60px;
+    color: #5A57F3;
+    margin-left: 15px;
+  } */
+  
+  .home-description .description-about {
+    font-size: 12px;
+    line-height: 25px;
+  }
+  
+  .home-description .description-about a { 
+    color: #5A57F3;
+    margin-left: 8px;
+    text-decoration: underline;
+  }
+  
+  .home-icon {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .home-icon img {
+    width: 50px;
+    height: 50px;
+  }  
+}
+
+/* WIDTH 1440px */
+@media screen and (max-width: 1440px) {
+  .home {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  .home-description {
+    color: #fff;
+    width: 50%;
+  }
+  
+  .home-description .description-fullname {
+    font-size: 60px;
+    line-height: 65px;
+  }
+  
+  .home-description .description-jobs {
+    font-size: 40px;
+    line-height: 60px;
+    color: #5A57F3;
+  }
+  
+  /* .home-description .description-jobs {
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+  }
+  
+  .home-description .description-jobs div {
+    font-size: 40px;
+    line-height: 60px;
+    color: #5A57F3;
+    margin-left: 15px;
+  } */
+  
+  .home-description .description-about {
+    font-size: 12px;
+    line-height: 25px;
+  }
+  
+  .home-description .description-about a { 
+    color: #5A57F3;
+    margin-left: 8px;
+    text-decoration: underline;
+  }
+  
+  .home-icon {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .home-icon img {
+    width: 50px;
+    height: 50px;
+  }  
+}
+
+/* WIDTH 850px */
+@media screen and (max-width: 850px) {
+  .home {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-bottom: 100px;
+  }
+
+  .home-profile img{
+    width: 450px;
+    margin-top: 50px;
+  }
+  
+  .home-description {
+    color: #fff;
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  .home-description .description-fullname {
+    font-size: 60px;
+    line-height: 65px;
+  }
+  
+  .home-description .description-jobs {
+    font-size: 40px;
+    line-height: 80px;
+    color: #5A57F3;
+  }
+  
+  .home-description .description-about {
+    font-size: 12px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+  
+  .home-description .description-about a { 
+    color: #5A57F3;
+    margin-left: 8px;
+    text-decoration: underline;
+  }
+  
+  .home-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .home-icon img {
+    width: 50px;
+    height: 50px;
+  }  
+}
+
+/* WIDTH 500px */
+@media screen and (max-width: 500px) {
+  .home {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-bottom: 100px;
+  }
+
+  .home-profile img{
+    width: 350px;
+  }
+  
+  .home-description {
+    color: #fff;
+    width: 100%;
+  }
+  
+  .home-description .description-fullname {
+    font-size: 30px;
+    line-height: 20px;
+  }
+  
+  .home-description .description-jobs {
+    font-size: 30px;
+    line-height: 50px;
+    color: #5A57F3;
+  }
+  
+  .home-description .description-about {
+    font-size: 12px;
+    line-height: 25px;
+  }
+  
+  .home-description .description-about a { 
+    color: #5A57F3;
+    margin-left: 8px;
+    text-decoration: underline;
+  }
+  
+  .home-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .home-icon img {
+    width: 50px;
+    height: 50px;
+  }  
+}

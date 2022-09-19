@@ -1,7 +1,5 @@
 import './Project.css'
 
-import { useEffect } from 'react'
-
 import Vector1 from '../../assets/images/Vector.png'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -18,9 +16,6 @@ import "swiper/css/effect-flip";
 import { Autoplay, Pagination, Navigation, EffectCreative, EffectFlip } from "swiper";
 
 export default function Project() {
-  useEffect(() => {
-    document.title = `Portofolio | Project`;
-  }, []);
   return (
     <section id="project">
       <div style={{ position: 'relative' }}>

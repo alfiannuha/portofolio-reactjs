@@ -121,17 +121,17 @@ export default function Navbar() {
                   document.documentElement.scrollTop = 0;
                   setShowNavbar(false)
                 }}>
-                <a href="#home">Home</a>
+                <a href="/#home">Home</a>
               </li>
               <li 
                 style={{ marginBottom: '20px', fontSize: '20px' }}
                 onClick={() => setShowNavbar(false)}>
-                <a href="#project">Project</a>
+                <a href="/#project">Project</a>
               </li>
               <li 
                 style={{ marginBottom: '20px', fontSize: '20px' }}
                 onClick={() => setShowNavbar(false)}>
-                <a href="#skills">Skills</a>
+                <a href="/#skills">Skills</a>
               </li>
             </ul>
             <div

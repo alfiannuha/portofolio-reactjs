@@ -1,4 +1,5 @@
 import './App.css';
+import { useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
@@ -8,6 +9,9 @@ import Projects from './pages/project/Projects'
 function App() {
   let width = window.innerWidth
   // console.log(width);
+  useEffect(() => {
+    document.title = "Portofolio Nuha"
+  }, [])
   return (
     <div style={{ backgroundColor:'#282c34' }}>
       <div className="App">

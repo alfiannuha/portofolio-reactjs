@@ -15,7 +15,7 @@ function App() {
           width > 500 &&
           <Navbar></Navbar>
         }
-        {/* {width} */}
+        {width}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="projects" element={<Projects />} />

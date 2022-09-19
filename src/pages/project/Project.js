@@ -22,7 +22,7 @@ export default function Project() {
     document.title = `Portofolio | Project`;
   }, []);
   return (
-    <div id="project">
+    <section id="project">
       <div style={{ position: 'relative' }}>
         <img src={Vector1} alt="Vector" className="vector-left" />
         <div className="project">
@@ -108,6 +108,6 @@ export default function Project() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

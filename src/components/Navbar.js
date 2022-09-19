@@ -60,7 +60,7 @@ export default function Navbar() {
         <div className="navbar-item">
           <ul>
             <li>
-              <a href="/" onClick={() => {
+              <a href="#home" onClick={() => {
               document.body.scrollTop = 0;
               document.documentElement.scrollTop = 0;
             }}>Home</a></li>
@@ -105,12 +105,12 @@ export default function Navbar() {
               listStyle: 'none'
             }}>
               <li>
-                <a href="/" onClick={() => {
+                <a href="#home" onClick={() => {
                 document.body.scrollTop = 0;
                 document.documentElement.scrollTop = 0;
               }}>Home</a></li>
-              <li><a href="/#project">Project</a></li>
-              <li><a href="/#skills">Skills</a></li>
+              <li><a href="#project">Project</a></li>
+              <li><a href="#skills">Skills</a></li>
             </ul>
           </div>
 

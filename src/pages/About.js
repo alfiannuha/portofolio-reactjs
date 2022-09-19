@@ -8,11 +8,11 @@ export default function About() {
   
   return (
     <>
-      <div className="about">
+      <section className="about">
         <div className="about-description">
           <div className="description-fullname">
             Hi, I'm <br/>
-            Alfian An - Naufal Nuha
+            Alfian An - Naufal Nuha <br/>
             <TextLoop className="description-jobs" interval={2000}>
               <span>Front-End Web Developer.</span>
               <span>Back-End Developer.</span>
@@ -31,7 +31,7 @@ export default function About() {
         <div className="about-profile">
           <img src={PolygonProfiler} alt="polygon" />
         </div>
-      </div>
+      </section>
       <div className="divider">
         <hr className="divider-line" />
       </div>
@@ -50,6 +50,9 @@ export default function About() {
               <div className="riwayat-detail-job"> Front-End Web Development <span>(Parttime)</span></div>
             </div>
           </div>
+        </div>
+        <div className="divider">
+          <hr className="divider-line" />
         </div>
         <div className="riwayat-description">
           <div className="riwayat-title">Riwayat Pendidikan</div>

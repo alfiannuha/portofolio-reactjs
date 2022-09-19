@@ -10,23 +10,22 @@ function App() {
   // console.log(width);
   return (
     <div style={{ backgroundColor:'#282c34' }}>
-      {
-        width > 500 &&
-        <Navbar></Navbar>
-      }
       <div className="App">
-        {/* {width > 850 ? "true" : "false"} <br/>
-        {width} */}
+        {
+          width > 500 &&
+          <Navbar></Navbar>
+        }
+        {/* {width} */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="projects" element={<Projects />} />
           <Route path="about" element={<About />} />
         </Routes>
+        {
+          width < 500 &&
+          <Navbar></Navbar>
+        }
       </div>
-      {
-        width < 500 &&
-        <Navbar></Navbar>
-      }
     </div>
   );
 }

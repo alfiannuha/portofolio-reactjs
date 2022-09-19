@@ -18,7 +18,7 @@ import PHP from '../assets/icons/php.png'
 export default function Skills() {
   
   return (
-    <div id="skills">
+    <section id="skills">
       <div style={{ position: 'relative', height: '200px'}}>
         <img src={VectorR} alt="Vector Right" className="vector-right" />
         <div className="skills">
@@ -40,6 +40,6 @@ export default function Skills() {
         <img src={PHP} alt="PHP" />
       </div>
       <img src={VectorL} alt="Vector Left" className="vector-left-skills" />
-    </div>
+    </section>
   );
 }

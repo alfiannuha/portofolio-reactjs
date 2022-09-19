@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
      {/* <Navbar></Navbar> */}
-      <div className="home" id="home">
+      <section className="home" id="home">
         <div className="home-description">
           <div className="description-fullname">
             Hi, I'm Nuha <br/>
@@ -42,7 +42,7 @@ export default function Home() {
         <div className="home-profile">
           <img src={PolygonProfiler} alt="polygon" />
         </div>
-      </div>
+      </section>
       <Project></Project>
       <Skills></Skills>
     </>

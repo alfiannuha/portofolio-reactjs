@@ -228,3 +228,63 @@
     filter: grayscale(0);
   }
 }
+
+@media screen and  (max-width: 400px) {
+  #skills {
+    height: 100vh;
+    position: relative;
+  }
+  .skills {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .vector-right {
+    position: absolute;
+    right: 0;
+    width: 300px;
+  }
+  
+  .vector-left-skills {
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+  }
+  
+  .skills-title {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    margin-top: 15%;
+    font-size: 34px;
+    color: #5A57F3;
+  }
+  
+  .skills-images {
+    position: absolute;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin-top: 10%; */
+    left: 6%;
+  }
+  
+  .skills-images img {
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    z-index: 1;
+    filter: grayscale(100%)
+  }
+  
+  .skills-images img:hover {
+    width: 80px;
+    height: 80px;
+    filter: grayscale(0);
+  }
+}

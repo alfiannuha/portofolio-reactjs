@@ -7,6 +7,9 @@ import Project from '../pages/project/Project'
 
 import TextLoop from "react-text-loop"
 
+import Icon from '@mdi/react';
+import { mdiCheckDecagram } from '@mdi/js';
+
 import PolygonProfiler from '../assets/images/profile_polygon.png'
 import GithubIcon from '../assets/icons/github.png'
 import GitlabIcon from '../assets/icons/gitlab.png'
@@ -18,7 +21,12 @@ export default function Home() {
       <section className="home" id="home">
         <div className="home-description">
           <div className="description-fullname">
-            Hi, I'm Nuha <br/>
+            Hi, I'm Nuha 
+            <Icon 
+              path={mdiCheckDecagram}
+              style={{marginLeft: '10px'}}
+              color="#3797F0"
+              size={1}/> <br/>
             <TextLoop className="description-jobs" interval={2000}>
               <span>Front-End Web Developer.</span>
               <span>Back-End Developer.</span>

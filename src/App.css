@@ -20,3 +20,8 @@ a {
   text-decoration: none;
   color: #D9D9D9;
 }
+
+.text_link {
+  color: #5957F3;
+  text-decoration: underline;
+}

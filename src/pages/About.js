@@ -1,8 +1,10 @@
 import './About.css'
+import { Link } from "react-router-dom";
 
 import TextLoop from "react-text-loop"
 
 import PolygonProfiler from '../assets/images/profile_polygon.png'
+import MY_CV from '../assets/CV_ALFIAN_AN_NAUFAL_NUHA.pdf'
 
 export default function About() {
   
@@ -19,10 +21,33 @@ export default function About() {
             </TextLoop>
           </div>
           <div className="description-about">
-            Lorem ipsum dolor sit amet sem euismod ullamcorper magna sed risus sit ex suspendisse mus hac faucibus velit egestas morbi per nulla ante commodo fusce mauris aliquet tristique aliquam netus rhoncus vestibulum pulvinar lacus curae sodales pretium mattis maximus fringilla. Lorem ipsum dolor sit amet sem euismod ullamcorper magna sed risus sit ex suspendisse mus hac faucibus velit egestas morbi per nulla ante commodo fusce mauris aliquet tristique aliquam netus rhoncus vestibulum pulvinar lacus curae sodales pretium mattis maximus fringilla.  Lorem ipsum dolor sit amet sem euismod ullamcorper magna sed risus sit ex suspendisse mus hac faucibus velit egestas morbi per nulla ante commodo fusce mauris aliquet tristique aliquam netus rhoncus vestibulum pulvinar lacus curae sodales pretium mattis maximus fringilla. Lorem ipsum dolor sit amet sem euismod ullamcorper magna sed risus sit ex suspendisse mus hac faucibus velit egestas morbi per nulla ante commodo fusce mauris aliquet tristique aliquam netus rhoncus vestibulum pulvinar lacus curae sodales pretium mattis maximus fringilla. 
+            <p>
+              Hallo, nama saya Alfian An - Naufal Nuha dan saya seorang Web
+              Development. Saya memiliki kemampuan untuk membuat sebuah Website
+              atau Aplikasi berbasis Web.
+            </p>
+            <p>
+              Saya lahir di Semarang pada 12 Mei 2000 dan sekarang saya tinggal
+              di Daerah Istimewa Yogyakarta. Saya pertama kali mendalami coding
+              adalah setelah dari Pondok Pesantren dengan masuk ke sebuah Kursus
+              Web Pemograman yaitu
+              <a class="text_link" href="https://alfabankjogja.com/" target="_blank"> Alfabank Yogyakarta</a>
+            </p>
+            <p>
+              Saya saat ini sedang menempuh kuliah pada Jurusan Teknik
+              Informatika di Universitas Mercubuana Yogyakarta Kampus 2 dan juga sambil bekerja.
+            </p>
+            <p>
+              Saat ini saya bekerja di PT . Era Solusi Data sebagai Front End
+              Development. Sebagai Front End pada produk
+              <a class="text_link" href="https://sodapos.com"> Aplikasi Kasir SODA POS</a>. 
+              Saat ini juga sedang freelance di salah satu perusahaan yaitu PT Yureka Teknologi Cipta.
+              {/* Dan ada beberapa project yang pernah saya buat bisa dilihat
+              <a class="text_link" href="/#project"> disini</a> */}
+            </p>
           </div>
           <a
-            href="assets/CV_ALFIAN_AN_NAUFAL_NUHA.pdf" 
+            href={MY_CV} 
             download 
             className="about-btn-cv">
             Download CV
@@ -42,12 +67,12 @@ export default function About() {
             <div className="riwayat-details">
               <div className="riwayat-detail-tahun">2020 - Sekarang</div>
               <div className="riwayat-detail-place">PT. Era Solusi Data</div>
-              <div className="riwayat-detail-job"> Front-End Web Development <span>(Onsite)</span></div>
+              <div className="riwayat-detail-job"> Front-End Web Development <span>(Full time)</span></div>
             </div>
             <div className="riwayat-details">
               <div className="riwayat-detail-tahun">2021 - Sekarang</div>
               <div className="riwayat-detail-place">PT. Yureka Tech</div>
-              <div className="riwayat-detail-job"> Front-End Web Development <span>(Parttime)</span></div>
+              <div className="riwayat-detail-job"> Front-End Web Development <span>(Part time)</span></div>
             </div>
           </div>
         </div>

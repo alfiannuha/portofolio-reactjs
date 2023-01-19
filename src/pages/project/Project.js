@@ -1,6 +1,13 @@
 import './Project.css'
 
 import Vector1 from '../../assets/images/Vector.png'
+import { 
+  sodapos,
+  sodaposAffiliate,
+  sodaposAdmin,
+  sodaposKasir,
+  sodaposInternal,
+} from '../../assets/images/projects'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -14,8 +21,37 @@ import "swiper/css/effect-flip";
 
 // import required modules
 import { Autoplay, Pagination, Navigation, EffectCreative, EffectFlip } from "swiper";
+import { useState } from 'react';
 
 export default function Project() {
+
+  const [projects, setProjects] = useState([
+    {
+      name: 'Landing Page SODA',
+      link: 'https://sodapos.com',
+      image: sodapos,
+    },
+    {
+      name: 'Landing Page Affiliate SODA',
+      link: 'https://affiliate.sodapos.com',
+      image: sodaposAffiliate,
+    },
+    {
+      name: 'Halaman Administrator SODA',
+      link: 'https://admin.sodapos.com',
+      image: sodaposAdmin,
+    },
+    {
+      name: 'Halaman Kasir SODA',
+      link: 'https://kasir.sodapos.com',
+      image: sodaposKasir,
+    },
+    {
+      name: 'Halaman Internal SODA',
+      link: 'https://internal.sodapos.com',
+      image: sodaposInternal,
+    },
+  ])
   return (
     <section id="project">
       <div style={{ position: 'relative' }}>
@@ -49,12 +85,19 @@ export default function Project() {
               modules={[Autoplay, Pagination, Navigation, EffectCreative]}
               className="mySwiper"
             >
-              <SwiperSlide>
-                <a href="https://google.com/">
-                  <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="project" />
-                </a>
-              </SwiperSlide>
-              <SwiperSlide>
+              {
+                projects.map((item, key) => {
+                  return (
+                    <SwiperSlide>
+                      <a href={item.link} target="_blank">
+                        <img src={item.image} alt={item.name}/>
+                      </a>
+                    </SwiperSlide>
+                  )
+                })
+              }
+              
+              {/* <SwiperSlide>
                 <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="Swiper" />
               </SwiperSlide>
               <SwiperSlide>
@@ -68,7 +111,7 @@ export default function Project() {
               </SwiperSlide>
               <SwiperSlide>
                 <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="Swiper"/>
-              </SwiperSlide>
+              </SwiperSlide> */}
             </Swiper>
           </div>
           <div className="project-card-mobile">

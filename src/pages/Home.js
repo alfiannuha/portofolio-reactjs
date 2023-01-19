@@ -35,8 +35,11 @@ export default function Home() {
           {/* <div className="description-jobs">
           </div> */}
           <div className="description-about">
-            Lorem ipsum dolor sit amet eget lobortis urna ultrices eros lectus ipsum congue dui nostra cras suscipit imperdiet nulla ultricies cubilia ridiculus taciti augue placerat rutrum auctor pede nullam hac natoque arcu conubia porta et odio turpis aptent primis class
-            <Link to="/about">see more</Link>
+            <p>
+              Hallo, nama saya Alfian An - Naufal Nuha dan saya seorang Web
+              Development. Saya memiliki kemampuan untuk membuat sebuah Website
+              atau Aplikasi berbasis Web. <Link to="/about">see more</Link>
+            </p>
           </div>
           <div className="home-icon">
             <a href="https://github.com/alfiannuha" target="_blank" style={{ marginRight: 30}} rel="noreferrer noopener">

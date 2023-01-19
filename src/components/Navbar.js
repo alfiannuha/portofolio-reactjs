@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './Navbar.css'
 import Logo from '../assets/images/logo.png'
+import { Link } from "react-router-dom";
 
 import GithubIcon from '../assets/icons/github.png'
 import GitlabIcon from '../assets/icons/gitlab.png'
@@ -60,7 +61,7 @@ export default function Navbar() {
         <div className="navbar-item">
           <ul>
             <li>
-              <a href="#home" onClick={() => {
+              <a href="/#home" onClick={() => {
               document.body.scrollTop = 0;
               document.documentElement.scrollTop = 0;
             }}>Home</a></li>

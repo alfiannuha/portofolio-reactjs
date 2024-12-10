@@ -42,6 +42,8 @@ const SOSMED = [
 
 export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(false)
+  
+  const [activeLink, setActiveLink] = useState(null)
 
   const handleMenu = (state) => {
     if (!state) {
@@ -61,12 +63,17 @@ export default function Navbar() {
         <div className="navbar-item">
           <ul>
             <li>
-              <a href="/#home" onClick={() => {
-              document.body.scrollTop = 0;
-              document.documentElement.scrollTop = 0;
-            }}>Home</a></li>
-            <li><a href="/#project">Project</a></li>
-            <li><a href="/#skills">Skills</a></li>
+              <a href="/#home" className={activeLink === 'home' ? 'active' : ''} onClick={() => {
+                setActiveLink('home')
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+              }}>Home</a></li>
+            <li><a href="/#project" className={activeLink === 'project' ? 'active' : ''} onClick={() => {
+              setActiveLink('project')
+            }}>Project</a></li>
+            <li><a href="/#skills" className={activeLink === 'skills' ? 'active' : ''} onClick={() => {
+              setActiveLink('skills')
+            }}>Skills</a></li>
           </ul>
         </div>
       </div>

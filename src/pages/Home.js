@@ -10,7 +10,8 @@ import TextLoop from "react-text-loop"
 import Icon from '@mdi/react';
 import { mdiCheckDecagram } from '@mdi/js';
 
-import PolygonProfiler from '../assets/images/profile_polygon.png'
+import PolygonImage from '../assets/images/polygon.png'
+import ProfileImage from '../assets/images/profile.png'
 import GithubIcon from '../assets/icons/github.png'
 import GitlabIcon from '../assets/icons/gitlab.png'
 
@@ -28,8 +29,7 @@ export default function Home() {
               color="#3797F0"
               size={1}/> <br/>
             <TextLoop className="description-jobs" interval={2000}>
-              <span>Front-End Web Developer.</span>
-              <span>Back-End Developer.</span>
+              <span>Frontend Web Developer.</span>
             </TextLoop>
           </div>
           {/* <div className="description-jobs">
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
         </div>
         <div className="home-profile">
-          <img src={PolygonProfiler} alt="polygon" />
+          <img src={ProfileImage} alt="profile" className="profile-image" />
         </div>
       </section>
       <Project></Project>

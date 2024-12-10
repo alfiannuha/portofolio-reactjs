@@ -3,10 +3,37 @@ import { Link } from "react-router-dom";
 
 import TextLoop from "react-text-loop"
 
-import PolygonProfiler from '../assets/images/profile_polygon.png'
+import ProfileImage from '../assets/images/profile.png'
 import MY_CV from '../assets/CV_ALFIAN_AN_NAUFAL_NUHA.pdf'
 
 export default function About() {
+
+  const riwayatPekerjaan = [
+    {
+      tahun: 'Februari 2025 - Sekarang',
+      tempat: 'PT. Solutionlabs Grup',
+      pekerjaan: 'Front-End Web Development',
+      status: '(Full time)'
+    },
+    {
+      tahun: 'November 2023 - Februari 2025',
+      tempat: 'PT. Yureka Teknologi Cipta',
+      pekerjaan: 'Front-End Web Development ',
+      status: '(Full time)'
+    },
+    {
+      tahun: 'Juli 2021 - April 2023',
+      tempat: 'PT. Yureka Teknologi Cipta',
+      pekerjaan: 'Front-End Web Development',
+      status: '(Part time)'
+    },
+    {
+      tahun: 'Mei 2020 - November 2023',
+      tempat: 'PT. Era Solusi Data',
+      pekerjaan: 'Front-End Web Development',
+      status: '(Full time)'
+    },
+  ]
   
   return (
     <>
@@ -16,8 +43,7 @@ export default function About() {
             Hi, I'm <br/>
             Alfian An - Naufal Nuha <br/>
             <TextLoop className="description-jobs" interval={2000}>
-              <span>Front-End Web Developer.</span>
-              <span>Back-End Developer.</span>
+              <span>Frontend Web Developer.</span>
             </TextLoop>
           </div>
           <div className="description-about">
@@ -38,12 +64,10 @@ export default function About() {
               Informatika di Universitas Mercubuana Yogyakarta Kampus 2 dan juga sambil bekerja.
             </p>
             <p>
-              Saat ini saya bekerja di PT . Era Solusi Data sebagai Front End
-              Development. Sebagai Front End pada produk
-              <a class="text_link" href="https://sodapos.com"> Aplikasi Kasir SODA POS</a>. 
-              Saat ini juga sedang freelance di salah satu perusahaan yaitu PT Yureka Teknologi Cipta.
-              {/* Dan ada beberapa project yang pernah saya buat bisa dilihat
-              <a class="text_link" href="/#project"> disini</a> */}
+              Saat ini saya bekerja di PT. Solutionlabs Grup sebagai Front End
+              Development. Pada perusahaan ini saya bekerja sebagai Front End Developer
+              yang bertanggung jawab untuk mengembangkan dan memelihara aplikasi web
+              yang digunakan oleh klien.
             </p>
           </div>
           <a
@@ -54,7 +78,7 @@ export default function About() {
           </a>  
         </div>
         <div className="about-profile">
-          <img src={PolygonProfiler} alt="polygon" />
+          <img src={ProfileImage} alt="profile" className="profile-image" />
         </div>
       </section>
       <div className="divider">
@@ -64,16 +88,13 @@ export default function About() {
         <div className="riwayat-description">
           <div className="riwayat-title">Riwayat Pekerjaan</div>
           <div className="riwayat-detail">
-            <div className="riwayat-details">
-              <div className="riwayat-detail-tahun">2020 - Sekarang</div>
-              <div className="riwayat-detail-place">PT. Era Solusi Data</div>
-              <div className="riwayat-detail-job"> Front-End Web Development <span>(Full time)</span></div>
-            </div>
-            <div className="riwayat-details">
-              <div className="riwayat-detail-tahun">2021 - Sekarang</div>
-              <div className="riwayat-detail-place">PT. Yureka Tech</div>
-              <div className="riwayat-detail-job"> Front-End Web Development <span>(Part time)</span></div>
-            </div>
+            {riwayatPekerjaan.map((item, index) => (
+              <div className="riwayat-details">
+                <div className="riwayat-detail-tahun">{item.tahun}</div>
+                <div className="riwayat-detail-place">{item.tempat}</div>
+                <div className="riwayat-detail-job"> {item.pekerjaan} <span>{item.status}</span></div>
+              </div>
+            ))}
           </div>
         </div>
         <div className="divider">
